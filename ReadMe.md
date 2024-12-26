@@ -1,7 +1,8 @@
 # Assignment: Carousel Project
 
 ## Project Video
-[![Watch the video](https://img.youtube.com/vi/xwaxu4hsrsA/0.jpg)](https://youtu.be/xwaxu4hsrsA)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xwaxu4hsrsA" frameborder="0" allowfullscreen></iframe>
+
 ---
 ## Project Overview
 The objective of this assignment is to implement a fully functional, dynamic carousel as per the given requirements. The carousel is designed to display a collection of cards featuring book titles, descriptions, and images, with enhanced usability and responsiveness.
