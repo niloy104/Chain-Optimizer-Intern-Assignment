@@ -1,5 +1,6 @@
 # Assignment: Carousel Project
-[Watch the video](./photos/Carsoul.mp4)
+![Video Name](https://github.com/username/repository-name/blob/main/photos/Carsoul.mp4?raw=true)
+
 
 ## Project Overview
 The objective of this assignment is to implement a fully functional, dynamic carousel as per the given requirements. The carousel is designed to display a collection of cards featuring book titles, descriptions, and images, with enhanced usability and responsiveness.
