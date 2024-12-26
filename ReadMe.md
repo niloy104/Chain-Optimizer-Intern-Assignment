@@ -33,8 +33,5 @@ This assignment is a customizable and interactive carousel designed to display a
 
 ---
 
-
----
-
 ## Contact
 For inquiries or assistance with this project, please reach out!
