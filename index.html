@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple HTML Page</title>
     <link rel="stylesheet" href="my-styles.css">
-    <script src="my-script.js"></script>
+    <script defer src="my-script.js"></script>
 </head>
-<body>
-    <header>
-        <h1>Welcome to My Simple HTML Page</h1>
-    </header>
 
+<body>
+    <h1>Welcome to My Simple HTML Page</h1>
     <main>
-        <p class="atext">This is the body of the page. You can add your content here.</p>
+        <div class="carousel-container">
+            <button class="carousel-button left" aria-label="Scroll left">&lt;</button>
+            <div class="carousel">
+            </div>
+            <button class="carousel-button right" aria-label="Scroll right">&gt;</button>
+        </div>
+        <div class="pagination"></div>
     </main>
 
     <footer>
         <p>&copy; 2024 My Website</p>
     </footer>
 </body>
+
 </html>
