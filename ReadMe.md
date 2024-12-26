@@ -2,7 +2,7 @@
 
 ## Project Video
 <video controls width="640" height="360">
-  <source src="photos/Carsoul.mp4" type="video/mp4">
+  <source src="https://raw.githubusercontent.com/niloy104/Chain-Optimizer-Intern-Assignment/main/photos/Carsoul.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
