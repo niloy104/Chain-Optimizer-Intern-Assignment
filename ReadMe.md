@@ -1,10 +1,9 @@
 # Assignment: Carousel Project
 
 ## Project Video
-<video controls width="640" height="360">
-  <source src="https://raw.githubusercontent.com/niloy104/Chain-Optimizer-Intern-Assignment/main/photos/Carsoul.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+[![Watch the video](https://img.youtube.com/vi/xwaxu4hsrsA/0.jpg)](https://youtu.be/xwaxu4hsrsA)
+
 
 ---
 ## Project Overview
