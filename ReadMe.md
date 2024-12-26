@@ -2,7 +2,11 @@
 
 ## Project Video
 
-[![Watch the video](https://img.youtube.com/vi/xwaxu4hsrsA/0.jpg)](https://youtu.be/xwaxu4hsrsA)
+## Demo Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xwaxu4hsrsA" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 
