@@ -5,7 +5,7 @@ window.onload = function () {
     const rightButton = document.querySelector('.carousel-button.right');
     const pagination = document.querySelector('.pagination');
 
-    // tracks the current card index
+    // track the current card index
     let currentIndex = 0;
     // totola visible car
     const visibleCards = 4;
