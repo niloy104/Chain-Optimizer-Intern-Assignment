@@ -1,37 +1,76 @@
-# Documentation of Carousel Project
+# Assignment: Carousel Project
 
-## Project Overview
-This assignment is a customizable and interactive carousel designed to display a dynamic collection of cards in a sleek and user-friendly manner. The carousel is ideal for showcasing items such as books, products, or images, while supporting seamless navigation and responsiveness.
-
-### Key Features:
-- **Dynamic Data Loading**: Fetches book information, including titles, descriptions, and images, from a JSON file (`book-description.json`).
-- **Smooth Navigation**: Includes arrow buttons, keyboard shortcuts, and rotating functionality for easy browsing.
-- **Pagination Indicators**: Dots below the carousel show the current position.
-- **Responsive Design**: Automatically adapts to different screen sizes
+## Project Objective
+The objective of this assignment is to implement a fully functional, dynamic carousel as per the given requirements. The carousel is designed to display a collection of cards featuring book titles, descriptions, and images, with enhanced usability and responsiveness.
 
 ---
 
-## Code Overview
+## Features Implemented
+### 1. **Card Design**:
+- Each card includes:
+  - An **image** that fits responsively within the card.
+  - A **title**, displayed prominently.
+  - A **content section**, showing a brief description below the title.
 
-### `index.html`
-- Acts as the entry point of the project.
-- Defines the HTML structure of the carousel.
+### 2. **Carousel Behavior**:
+- Navigation:
+  - **Arrow Buttons**: Left and right arrow buttons for scrolling through cards.
+  - **Keyboard Support**: Navigate using the left and right arrow keys.
+- Rotating Carousel:
+  - Automatically loops to the first card after the last, and vice versa.
+- Pagination:
+  - **Dots below the carousel** indicate the current position.
+
+### 3. **Responsiveness**:
+- The carousel adapts to varying screen sizes.
+
+### 4. **Dynamic Input**:
+- The number of total cards (`n`) and visible cards (`x`) can be configured easily.
+
+### 5. **Data Loading**:
+- Book data (title, description, image) is dynamically loaded from a JSON file.
+
+---
+
+## Code Explanation
+### 1. **HTML (`index.html`)**:
+- Provides the basic structure of the carousel.
 - Links the `my-styles.css` for styling and `my-script.js` for functionality.
 
-### `my-styles.css`
-- Handles the visual layout and design of the carousel:
-  - Card styling (image, title, description).
-  - Arrow buttons and pagination dots.
-  - Responsive rules for different screen sizes.
+### 2. **CSS (`my-styles.css`)**:
+- Handles the design of:
+  - Carousel layout and card styles.
+  - Navigation arrows and pagination dots.
+- Ensures the carousel is responsive across devices.
 
-### `my-script.js`
-- Powers the functionality of the carousel:
-  - Dynamically loads data from `book-description.json`.
-  - Manages navigation (arrows, keyboard shortcuts).
-  - Implements smooth sliding animations.
-  - Updates pagination dots and ensures a rotating carousel experience.
+### 3. **JavaScript (`my-script.js`)**:
+- Dynamically loads book data from `book-description.json`.
+- Implements:
+  - Navigation functionality (arrows, keyboard shortcuts).
+  - Smooth sliding animation and rotation logic.
+  - Pagination updates to reflect the current position.
 
 ---
 
-## Contact
-For inquiries or assistance with this project, please reach out!
+## How to Configure
+1. Open the `my-script.js` file.
+2. Modify the following variables to adjust the carousel:
+   ```javascript
+   const totalCards = 7; // Total number of cards (n)
+   const visibleCards = 4; // Number of cards visible at a time (x)
+   ```
+
+---
+
+
+## Additional Notes
+- The project meets the requirements outlined in the assignment:
+  - Configurable card display (`n` and `x`).
+  - Responsive and smooth carousel behavior.
+  - Dynamic loading of book data from `book-description.json`.
+- Tested on multiple screen sizes and modern browsers.
+
+---
+
+If you have any questions or feedback about this project, please reach out! Also 
+Let me know if further adjustments are needed.
